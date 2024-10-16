@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'IBM Plex Mono', Courier, monospace;
+} 
+
+
+/* cap_panel */
+.cap_panel_p {
+  
+  margin-top: 27px;
+  margin-left: 123px;
+  text-align: center;
+  width: 130px;
+  height: 60px;
+  box-sizing: border-box;
+  border: solid #000;
+  border-radius: 200px;
+  background-color: #000;
+  color: #1BFF07;
+  font-family: IBM Plex Mono;
+  text-decoration: none;
+  font-size: 42.414px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.cap_panel_a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.cap_panel_a:hover {
+  color: #1BFF07;
+  cursor: pointer;
+}
+.nav {
+  float: right;
+  padding-top: 33px;
+  margin-right: 124px;
+}
+
+
+
+
+
+/* osnova */
+.osnova {
+  margin: 0 auto;
+  width: 1903px;
+  background-color: #000;
+}
+.project_h2 {
+  width: 1048px;
+  height: 72px;
+  padding-top: 150px; 
+  padding-left: 120px;
+  color: #FFF;
+  font-family: IBM Plex Mono;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: -1.65px;
+}
+.project_1 {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 1630px;
+  height: 750px;
+  background-image: url(../resourse/Rectangle\ 6\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.project_2 {
+  position: relative;
+  margin: 0 auto;
+  width: 1630px;
+  height: 750px;
+  background-image: url(../resourse/Rectangle\ 7\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.project_3 {
+  position: relative;
+  margin: 0 auto;
+  width: 1630px;
+  height: 750px;
+  background-image: url(../resourse/Rectangle\ 7\ \(3\).png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.project_h3 {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  width: 401px;
+  height: 46px;
+  font-family: IBM Plex Mono;
+  font-size: 35px;
+  color: #FFF;
+  font-weight: 400;
+  letter-spacing: -1.05px
+}
+.project_p {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  padding-top: 5px;
+  width: 1000px;
+  height: 39px;
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #FFF;
+}
+button {
+  margin-top: 80px;
+  margin-left: 123px;
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  background: #1BFF07;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 400;
+}
+button:hover {
+  cursor: pointer;
+  border: 1px solid #1BFF07;
+  background-color: #000;
+  color: #1BFF07;
+}
